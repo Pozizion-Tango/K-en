@@ -16,7 +16,7 @@ namespace Køen
             get { return queue; }
             set { queue = value; }
         }
-        public void MenuTitle()
+        public void MenuTitle()//title
         {
             Console.ForegroundColor = ConsoleColor.Yellow; Console.WriteLine("======================================="); Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Cyan; Console.WriteLine("\r\n        H1 Queue Operations Menu        \r\n"); Console.ResetColor();
